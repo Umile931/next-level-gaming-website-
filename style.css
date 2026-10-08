@@ -1,0 +1,10 @@
+:root{--cyan:#00f2ff;--purple:#9d00ff;--dark:#0a0a0f;--card:#16161f}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:var(--dark);color:#fff}
+header{background:#000;padding:15px 30px;display:flex;justify-content:space-between;border-bottom:2px solid var(--cyan)}
+header h1{color:var(--cyan)} nav a{color:#fff;margin-left:15px;text-decoration:none}
+.hero{padding:60px;text-align:center;background:#1a0a2e} .hero h2{color:var(--cyan);font-size:40px}
+.btn{background:linear-gradient(90deg,var(--cyan),var(--purple));padding:12px 25px;border-radius:25px;color:#000;font-weight:800;text-decoration:none;display:inline-block;margin-top:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;padding:30px}
+.card{background:var(--card);border:1px solid #333;border-radius:12px;padding:20px;text-align:center}
+.price{font-size:24px;color:#fff} table{width:90%;margin:20px auto;border-collapse:collapse;background:var(--card)} th,td{border:1px solid #333;padding:10px} th{color:var(--cyan)}
